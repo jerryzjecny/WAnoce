@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         return color;
     }
-
         var circleElements = document.getElementsByClassName('circle');
         var numberOfCircles = circleElements.length;
 
@@ -16,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     function setupGame() {
+        document.getElementById("TOHLE").innerText = xxx;
         const correctColor = getRandomHexColor();
         var xxx = correctColor;
         console.warn(xxx)

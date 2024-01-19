@@ -16,6 +16,7 @@ body {
 }
 
 .button-link {
+
     display: flex;
     margin-top: 20px;
     margin-right: 10px;
@@ -39,7 +40,7 @@ body {
     max-width: 400px;
 }
 
-.cell {
+.box {
     width: 100px;
     height: 100px;
     border: 1px solid #ccc;

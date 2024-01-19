@@ -7,6 +7,10 @@ body {
     flex-direction: column;
 }
 
+.HexText {
+    font-size: 28px;
+}
+
 #game-container {
     display: flex;
 }
