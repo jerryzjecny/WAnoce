@@ -15,6 +15,20 @@ body {
     background-color: #f0f0f0; 
 }
 
+.button-link {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 .board {
     display: grid;
     align-items: center;
